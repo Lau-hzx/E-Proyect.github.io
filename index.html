@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EstudiaPlus - Tu Compañero de Estudios Perfecto</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Timer Component CSS -->
+    <link rel="stylesheet" href="components/timer/timer.css">
+    <!-- Calendar Component CSS -->
+    <link rel="stylesheet" href="components/calendar/calendar.css">
+    <!-- Tasks Component CSS -->
+    <link rel="stylesheet" href="components/tasks/tasks.css">
+    <!-- Schedule Component CSS -->
+    <link rel="stylesheet" href="components/schedule/schedule.css">
+    <!-- ICFES Component CSS -->
+    <link rel="stylesheet" href="components/icfes/icfes.css">
+    <!-- Progress Component CSS -->
+    <link rel="stylesheet" href="components/progress/progress.css">
+    <!-- Font Awesome para iconos (opcional, pero útil para los iconos de las imágenes) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <!-- Sección 1: Header y Hero -->
+    <header class="header py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="IMG/Logo Original.jpeg" alt="" style="height:60px; width:60px; border-radius:50px; margin-right: 10px;">Educate Más
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href=""><i class="bi bi-house-door me-2"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contacto.html"><i class="bi bi-telephone me-2"></i>Contacto</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="Reseñas.html"><i class="bi bi-person me-2"></i>Reseñas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary-gradient" href="#">Únete Gratis</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="IMG/Carrusel 1.jpg" class="d-block w-100" alt="..." style="height: 550px; padding-top: 25px; padding-left: 25px; padding-right: 25px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Aprender es Crecer</h5>
+        <p>Cada día es una nueva oportunidad para mejorar y avanzar hacia tus metas académicas</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="IMG/Carrusel 2.jpg" class="d-block w-100" alt="..." style="height: 550px; padding-top: 25px; padding-left: 25px; padding-right: 25px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Estudia con propósito</h5>
+        <p>No estudies solo por aprobar, sino por entender</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="IMG/Carrusel 3.jpg" class="d-block w-100" alt="..." style="height: 550px; padding-top: 25px; padding-left: 25px; padding-right: 25px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Tu futuro empieza hoy</h5>
+        <p>Organiza tu tiempo, aprovecha cada herramienta y construye una una vida académica más productiva</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+    <section class="hero-section text-center py-5 bg-dark-gradient">
+        <div class="container">
+            <h1 class="display-3 text-dark mb-4">Tu Compañero de <span class="text-dark">Estudios Perfecto</span></h1>
+            <p class="lead text-muted mb-5">
+                Estudia con Estudiaplus, la plataforma integral que necesitas para organizar tu vida
+                académica, prepararte para el ICFES y alcanzar tus metas educativas con
+                herramientas intuitivas y efectivas.
+            </p>
+            <div class="d-flex justify-content-center flex-column flex-md-row">
+                <a href=" https://alejosbar.github.io/E-Proyect-MC/" class="btn btn-outline-dark btn-lg btn-lg me-md-3 mb-3 mb-md-0" target="_blank" rel="noopener noreferrer"><i class="bi bi-play-circle me-2"></i>Presentación</a> 
+                <a href="https://www.canva.com/design/DAG3CVklLsc/FEes3Z2S5Q_VfDeVGRHydQ/edit" class="btn btn-outline-dark btn-lg" target="_blank" rel="noopener noreferrer"><i class="bi bi-play-circle me-2"></i>Canva</a> 
+            </div>
+
+            <div class="row features-summary mt-5 pt-4">
+                <div class="col-6 col-md-3 mb-4">
+                    <div class="feature-box p-3 rounded-3">
+                        <h4 class="text-white">1000+</h4>
+                        <p class="text-white-50">Estudiantes activos</p>    
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mb-4">
+                    <div class="feature-box p-3 rounded-3">
+                        <h4 class="text-white">95%</h4>
+                        <p class="text-white-50">Mejora en notas</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mb-4">
+                    <div class="feature-box p-3 rounded-3">
+                        <h4 class="text-white">24/7</h4>
+                        <p class="text-white-50">Disponibilidad</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mb-4">
+                    <div class="feature-box p-3 rounded-3">
+                        <h4 class="text-white"><i class="bi bi-star-fill" style="color: rgb(255, 196, 0);"></i> 5<span class="text-warning">*</span></h4>
+                        <p class="text-white-50">Valoración</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección 2: Herramientas Diseñadas para Estudiantes -->
+    <section class="tools-section py-5 bg-dark-gradient" style="background-color: rgb(0, 0, 0);">
+        <div class="container">
+            <h2 class="text-center display-5 text-white mb-5">Herramientas Diseñadas <br>para Estudiantes</h2>
+            <p class="text-center lead text-white mb-5">
+                Todas las funciones que necesitas para optimizar tu rendimiento
+                académico en una sola plataforma
+            </p>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card tool-card h-100 p-4">
+                        <div class="icon-circle mx-auto"><i class="bi bi-clock"></i></div>
+                        <h5 class="card-title text-dark">Temporizador de Estudio</h5>
+                        <p class="card-text text-muted">Gestiona tu tiempo de estudio con técnicas como Pomodoro para maximizar tu productividad.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card tool-card h-100 p-4">
+                        <div class="icon-circle mx-auto"><i class="bi bi-calendar-week"></i></div>
+                        <h5 class="card-title text-dark">Calendario Inteligente</h5>
+                        <p class="card-text text-muted">Organiza eventos, tareas, exámenes y cumpleaños en un calendario intuitivo y fácil de usar.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card tool-card h-100 p-4">
+                        <div class="icon-circle mx-auto"><i class="bi bi-card-checklist"></i></div>
+                        <h5 class="card-title text-dark">Lista de Tareas</h5>
+                        <p class="card-text text-muted">Crea y gestiona tus tareas diarias, marca las completadas y mantén tu productividad al día.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card tool-card h-100 p-4">
+                        <div class="icon-circle mx-auto"><i class="bi bi-journal-bookmark-fill"></i></div>
+                        <h5 class="card-title text-dark">Horario Personalizable</h5>
+                        <p class="card-text text-muted">Diseña tu horario académico personalizado y mantén organizadas todas tus clases y actividades.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card tool-card h-100 p-4">
+                        <div class="icon-circle mx-auto"><i class="bi bi-book-fill"></i></div>
+                        <h5 class="card-title text-dark">Simulacros ICFES</h5>
+                        <p class="card-text text-muted">Practica con simulacros completos de todas las materias y obtén resultados detallados sobre 500 puntos.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card tool-card h-100 p-4">
+                        <div class="icon-circle mx-auto"><i class="bi bi-bar-chart-line-fill"></i></div>
+                        <h5 class="card-title text-dark">Progreso Personalizado</h5>
+                        <p class="card-text text-muted">Sigue tu progreso académico y mejora continuamente con estadísticas detalladas de tu rendimiento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Temporizador de Estudio -->
+    <section id="timerSection" class="timer-section py-5 bg-dark-gradient" style="display: none;">
+        <div class="container">
+            <div class="card timer-card p-4 mx-auto">
+                <div class="text-center mb-4 pt-4">
+                    <h3 class="text-white mb-3">Temporizador de <span class="text-gradient">Estudio</span></h3>
+                    <p class="text-white-50">Concéntrate y sé más productivo.</p>
+                </div> 
+
+                <div class="timer-display text-center mb-4">
+                    <h1 id="time-display" class="display-1 text-white">25:00</h1>
+                </div>
+
+                <div class="timer-controls text-center mb-4">
+                    <button id="start-btn" class="btn btn-primary-gradient btn-lg me-2">Iniciar</button>
+                    <button id="pause-btn" class="btn btn-outline-light-gradient btn-lg me-2" style="display: none;">Pausar</button>
+                    <button id="reset-btn" class="btn btn-outline-light-gradient btn-lg">Reiniciar</button>
+                </div>
+
+                <div class="timer-modes text-center">
+                    <button class="btn btn-mode active" data-mode="pomodoro">Pomodoro (25 min)</button>
+                    <button class="btn btn-mode" data-mode="short-break">Descanso Corto (5 min)</button>
+                    <button class="btn btn-mode" data-mode="long-break">Descanso Largo (15 min)</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Sección Calendario Inteligente -->
+    <section id="calendarSection" class="calendar-section py-5 bg-dark-gradient" style="display: none;">
+        <div class="container">
+            <div class="card calendar-card p-4 mx-auto">
+                <div class="text-center mb-4 pt-4">
+                    <h3 class="text-white mb-3">Calendario <span class="text-gradient">Inteligente</span></h3>
+                    <p class="text-white">Organiza eventos, tareas, exámenes y cumpleaños</p>
+                </div>
+
+                <div class="calendar-container">
+                    <!-- Calendar Header -->
+                    <div class="calendar-header d-flex justify-content-between align-items-center mb-4">
+                        <button id="prevMonth" class="btn btn-outline-light-gradient">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <h4 id="currentMonth" class="text-dark mb-0">Octubre 2025</h4>
+                        <button id="nextMonth" class="btn btn-outline-light-gradient">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+
+                    <!-- Calendar Grid -->
+                    <div class="calendar-grid">
+                        <div class="weekdays">
+                            <div class="weekday">Dom</div>
+                            <div class="weekday">Lun</div>
+                            <div class="weekday">Mar</div>
+                            <div class="weekday">Mié</div>
+                            <div class="weekday">Jue</div>
+                            <div class="weekday">Vie</div>
+                            <div class="weekday">Sáb</div>
+                        </div>
+                        <div id="calendarDays" class="days">
+                            <!-- Days will be generated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Add Event Button -->
+                    <div class="text-center mt-4">
+                        <button id="addEventBtn" class="btn btn-primary-gradient">
+                            <i class="fas fa-plus me-2"></i> Agregar Evento
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Events List -->
+                <div class="events-list mt-4">
+                    <h5 class="text-white mb-3">Eventos del día</h5>
+                    <div id="eventsContainer" class="events-container">
+                        <!-- Events will be displayed here -->
+                        <p class="text-white text-center">No hay eventos para este día</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add Event Modal -->
+        <div class="modal fade" id="addEventModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg-dark-gradient">
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title text-white">Agregar Evento</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="eventForm">
+                            <div class="mb-3">
+                                <label class="form-label text-white">Título</label>
+                                <input type="text" id="eventTitle" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label text-white">Fecha</label>
+                                <input type="date" id="eventDate" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label text-white">Hora (opcional)</label>
+                                <input type="time" id="eventTime" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label text-white">Tipo</label>
+                                <select id="eventType" class="form-select">
+                                    <option value="event">Evento</option>
+                                    <option value="task">Tarea</option>
+                                    <option value="exam">Examen</option>
+                                    <option value="birthday">Cumpleaños</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label text-white">Descripción (opcional)</label>
+                                <textarea id="eventDescription" class="form-control" rows="3"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn btn-outline-light-gradient" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" id="saveEventBtn" class="btn btn-primary-gradient">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Sección Lista de Tareas -->
+    <section id="tasksSection" class="tasks-section py-5 bg-dark-gradient" style="display: none;">
+        <div class="container">
+            <div class="card tasks-card p-4 mx-auto">
+                <div class="text-center mb-4 pt-4">
+                    <h3 class="text-white mb-3">Lista de <span class="text-gradient">Tareas</span></h3>
+                    <p class="text-white">Organiza y gestiona tus tareas diarias</p>
+                </div>
+
+                <!-- Add Task Form -->
+                <div class="add-task-form mb-4">
+                    <div class="input-group">
+                        <input type="text" id="taskInput" class="form-control" placeholder="Escribe una nueva tarea..." maxlength="100">
+                        <select id="taskPriority" class="form-select">
+                            <option value="normal">Normal</option>
+                            <option value="high">Alta</option>
+                            <option value="low">Baja</option>
+                        </select>
+                        <button id="addTaskBtn" class="btn btn-primary-gradient">
+                            <i class="fas fa-plus me-2"></i> Agregar
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Task Filters -->
+                <div class="task-filters mb-4">
+                    <div class="btn-group w-100" role="group">
+                        <button type="button" class="btn btn-filter active" data-filter="all">Todas</button>
+                        <button type="button" class="btn btn-filter" data-filter="pending">Pendientes</button>
+                        <button type="button" class="btn btn-filter" data-filter="completed">Completadas</button>
+                    </div>
+                </div>
+
+                <!-- Task Statistics -->
+                <div class="task-stats mb-4">
+                    <div class="row text-center">
+                        <div class="col-4">
+                            <div class="stat-box">
+                                <div class="stat-number" id="totalTasks">0</div>
+                                <div class="stat-label">Total</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="stat-box">
+                                <div class="stat-number" id="pendingTasks">0</div>
+                                <div class="stat-label">Pendientes</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="stat-box">
+                                <div class="stat-number" id="completedTasks">0</div>
+                                <div class="stat-label">Completadas</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tasks List -->
+                <div class="tasks-list">
+                    <div id="tasksContainer" class="tasks-container">
+                        <!-- Tasks will be displayed here -->
+                        <div class="empty-state">
+                            <i class="fas fa-clipboard-list fa-3x text-muted mb-3"></i>
+                            <p class="text-white">No tienes tareas pendientes</p>
+                            <small class="text-white">¡Agrega tu primera tarea arriba!</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Clear Completed Tasks -->
+                <div class="text-center mt-4">
+                    <button id="clearCompletedBtn" class="btn btn-outline-light-gradient" style="display: none;">
+                        <i class="fas fa-trash me-2"></i> Limpiar Completadas
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Edit Task Modal -->
+        <div class="modal fade" id="editTaskModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg-dark-gradient">
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title text-white">Editar Tarea</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label class="form-label text-white">Tarea</label>
+                            <input type="text" id="editTaskInput" class="form-control" maxlength="100">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label text-white">Prioridad</label>
+                            <select id="editTaskPriority" class="form-select">
+                                <option value="normal">Normal</option>
+                                <option value="high">Alta</option>
+                                <option value="low">Baja</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0">
+                        <button type="button" class="btn btn-outline-light-gradient" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" id="saveEditBtn" class="btn btn-primary-gradient">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Horario Personalizable -->
+    <section id="scheduleSection" class="schedule-section py-5 bg-dark-gradient" style="display: none;">
+        <div class="container">
+            <div class="card schedule-card p-4 mx-auto">
+                <div class="text-center mb-4 pt-4">
+                    <h3 class="text-white mb-3">Horario <span class="text-gradient">Personalizable</span></h3>
+                    <p class="text-white">Diseña tu horario académico personalizado</p>
+                </div>
+
+                <!-- Add Class Form -->
+                <div class="add-class-form mb-4">
+                    <div class="row g-3">
+                        <div class="col-md-3">
+                            <input type="text" id="subjectInput" class="form-control" placeholder="Materia/Asignatura" maxlength="50">
+                        </div>
+                        <div class="col-md-2">
+                            <select id="daySelect" class="form-select">
+                                <option value="">Día</option>
+                                <option value="monday">Lunes</option>
+                                <option value="tuesday">Martes</option>
+                                <option value="wednesday">Miércoles</option>
+                                <option value="thursday">Jueves</option>
+                                <option value="friday">Viernes</option>
+                                <option value="saturday">Sábado</option>
+                                <option value="sunday">Domingo</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <input type="time" id="startTimeInput" class="form-control">
+                        </div>
+                        <div class="col-md-2">
+                            <input type="time" id="endTimeInput" class="form-control">
+                        </div>
+                        <div class="col-md-1">
+                            <button id="addClassBtn" class="btn btn-primary-gradient w-100">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Schedule View Toggle -->
+                <div class="schedule-view-toggle mb-4 text-center">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-view-toggle active" data-view="week">Vista Semanal</button>
+                        <button type="button" class="btn btn-view-toggle" data-view="day">Vista por Día</button>
+                    </div>
+                </div>
+
+                <!-- Weekly Schedule Grid -->
+                <div id="weeklyView" class="schedule-view">
+                    <div class="timetable">
+                        <!-- Time column -->
+                        <div class="time-column">
+                            <div class="time-header">Hora</div>
+                            <div class="time-slot">6:00</div>
+                            <div class="time-slot">7:00</div>
+                            <div class="time-slot">8:00</div>
+                            <div class="time-slot">9:00</div>
+                            <div class="time-slot">10:00</div>
+                            <div class="time-slot">11:00</div>
+                            <div class="time-slot">12:00</div>
+                            <div class="time-slot">13:00</div>
+                            <div class="time-slot">14:00</div>
+                            <div class="time-slot">15:00</div>
+                            <div class="time-slot">16:00</div>
+                            <div class="time-slot">17:00</div>
+                            <div class="time-slot">18:00</div>
+                            <div class="time-slot">19:00</div>
+                            <div class="time-slot">20:00</div>
+                            <div class="time-slot">21:00</div>
+                            <div class="time-slot">22:00</div>
+                        </div>
+
+                        <!-- Day columns -->
+                        <div class="day-column" data-day="monday">
+                            <div class="day-header">Lunes</div>
+                            <div class="day-slots" id="monday-slots"></div>
+                        </div>
+                        <div class="day-column" data-day="tuesday">
+                            <div class="day-header">Martes</div>
+                            <div class="day-slots" id="tuesday-slots"></div>
+                        </div>
+                        <div class="day-column" data-day="wednesday">
+                            <div class="day-header">Miércoles</div>
+                            <div class="day-slots" id="wednesday-slots"></div>
+                        </div>
+                        <div class="day-column" data-day="thursday">
+                            <div class="day-header">Jueves</div>
+                            <div class="day-slots" id="thursday-slots"></div>
+                        </div>
+                        <div class="day-column" data-day="friday">
+                            <div class="day-header">Viernes</div>
+                            <div class="day-slots" id="friday-slots"></div>
+                        </div>
+                        <div class="day-column weekend" data-day="saturday">
+                            <div class="day-header">Sábado</div>
+                            <div class="day-slots" id="saturday-slots"></div>
+                        </div>
+                        <div class="day-column weekend" data-day="sunday">
+                            <div class="day-header">Domingo</div>
+                            <div class="day-slots" id="sunday-slots"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Daily Schedule View -->
+                <div id="dailyView" class="schedule-view" style="display: none;">
+                    <div class="day-selector mb-4">
+                        <select id="selectedDay" class="form-select">
+                            <option value="monday">Lunes</option>
+                            <option value="tuesday">Martes</option>
+                            <option value="wednesday">Miércoles</option>
+                            <option value="thursday">Jueves</option>
+                            <option value="friday">Viernes</option>
+                            <option value="saturday">Sábado</option>
+                            <option value="sunday">Domingo</option>
+                        </select>
+                    </div>
+                    <div id="dailySchedule" class="daily-schedule">
+                        <!-- Daily schedule will be populated here -->
+                    </div>
+                </div>
+
+                <!-- Schedule Statistics -->
+                <div class="schedule-stats mt-4">
+                    <div class="row text-center">
+                        <div class="col-3">
+                            <div class="stat-box">
+                                <div class="stat-number" id="totalClasses">0</div>
+                                <div class="stat-label">Clases</div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="stat-box">
+                                <div class="stat-number" id="totalHours">0</div>
+                                <div class="stat-label">Horas</div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="stat-box">
+                                <div class="stat-number" id="studyDays">0</div>
+                                <div class="stat-label">Días</div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="stat-box">
+                                <div class="stat-number" id="avgHours">0</div>
+                                <div class="stat-label">Promedio</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Edit Class Modal -->
+        <div class="modal fade" id="editClassModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg-dark-gradient">
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title text-white">Editar Clase</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="add-class-form mb-4">
+    <div class="row g-3">
+        <div class="col-md-3">
+            <input type="text" id="subjectInput" class="form-control" placeholder="Materia/Asignatura" maxlength="50">
+        </div>
+        <div class="col-md-2">
+            <select id="daySelect" class="form-select">
+                <option value="">Día</option>
+                <option value="monday">Lunes</option>
+                <option value="tuesday">Martes</option>
+                <option value="wednesday">Miércoles</option>
+                <option value="thursday">Jueves</option>
+                <option value="friday">Viernes</option>
+                <option value="saturday">Sábado</option>
+                <option value="sunday">Domingo</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <input type="time" id="startTimeInput" class="form-control">
+        </div>
+        <div class="col-md-2">
+            <input type="time" id="endTimeInput" class="form-control">
+        </div>
+        <div class="col-md-2">
+            <select id="colorSelect" class="form-select">
+                <option value="blue">Azul</option>
+                <option value="green">Verde</option>
+                <option value="red">Rojo</option>
+                <option value="yellow">Amarillo</option>
+                <option value="purple">Morado</option>
+            </select>
+        </div>
+        <div class="col-md-1">
+            <button id="addClassBtn" class="btn btn-primary-gradient w-100">
+                <i class="bi bi-plus"></i> </button>
+        </div>
+        </div>
+</div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Sección Simulacros ICFES -->
+    <section id="icfesSection" class="icfes-section py-5 bg-dark-gradient" style="display: none;">
+        <div class="container">
+            <div class="card icfes-card p-4 mx-auto">
+                <div class="text-center mb-4 pt-4">
+                    <h3 class="text-white mb-3">Simulacros <span class="text-gradient">ICFES</span></h3>
+                    <p class="text-white">Practica con exámenes completos y obtén resultados detallados</p>
+                </div>
+
+                <!-- Subject Selection -->
+                <div id="subjectSelection" class="subject-selection">
+                    <h4 class="text-white mb-4">Selecciona una materia para practicar</h4>
+                    <div class="row g-3 justify-content-center">
+                        <div class="col-6 col-sm-4 col-md-auto">
+                            <button class="btn btn-subject w-100" data-subject="matematicas">
+                                <i class="fas fa-calculator d-block mb-2"></i>
+                                Matemáticas
+                            </button>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-auto">
+                            <button class="btn btn-subject w-100" data-subject="ciencias-naturales">
+                                <i class="fas fa-flask d-block mb-2"></i>
+                                Ciencias Naturales
+                            </button>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-auto">
+                            <button class="btn btn-subject w-100" data-subject="ciencias-sociales">
+                                <i class="fas fa-globe-americas d-block mb-2"></i>
+                                Ciencias Sociales
+                            </button>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-auto">
+                            <button class="btn btn-subject w-100" data-subject="ingles">
+                                <i class="fas fa-language d-block mb-2"></i>
+                                Inglés
+                            </button>
+                        </div>
+                        <div class="col-6 col-sm-4 col-md-auto">
+                            <button class="btn btn-subject w-100" data-subject="lectura-critica">
+                                <i class="fas fa-book-reader d-block mb-2"></i>
+                                Lectura Crítica
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Exam Interface -->
+                <div id="examInterface" class="exam-interface" style="display: none;">
+                    <!-- Exam Header -->
+                    <div class="exam-header mb-4">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <h4 class="text-dark mb-1" id="currentSubject">Matemáticas</h4>
+                                <small class="text-muted">Pregunta <span id="currentQuestion">1</span> de <span id="totalQuestions">50</span></small>
+                            </div>
+                            <div class="exam-timer">
+                                <i class="fas fa-clock me-2"></i>
+                                <span id="examTimer">45:00</span>
+                            </div>
+                        </div>
+                        <div class="progress mt-3">
+                            <div id="examProgress" class="progress-bar bg-success" style="width: 0%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Question Display -->
+                    <div class="question-display mb-4">
+                        <div class="question-card">
+                            <div class="question-text mb-4">
+                                <h5 id="questionText">¿Cuál es la capital de Colombia?</h5>
+                            </div>
+                            <div class="answers-grid">
+                                <div class="answer-option" data-option="A">
+                                    <span class="option-letter">A</span>
+                                    <span class="option-text">Bogotá</span>
+                                </div>
+                                <div class="answer-option" data-option="B">
+                                    <span class="option-letter">B</span>
+                                    <span class="option-text">Medellín</span>
+                                </div>
+                                <div class="answer-option" data-option="C">
+                                    <span class="option-letter">C</span>
+                                    <span class="option-text">Cali</span>
+                                </div>
+                                <div class="answer-option" data-option="D">
+                                    <span class="option-letter">D</span>
+                                    <span class="option-text">Barranquilla</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="exam-navigation d-flex justify-content-between">
+                        <button id="prevQuestion" class="btn btn-outline-light-gradient">
+                            <i class="fas fa-chevron-left me-2"></i> Anterior
+                        </button>
+                        <button id="nextQuestion" class="btn btn-primary-gradient">
+                            Siguiente <i class="fas fa-chevron-right ms-2"></i>
+                        </button>
+                    </div>
+
+                    <!-- Question Navigator -->
+                    <div class="question-navigator mt-4">
+                        <h6 class="text-white mb-3">Navegador de Preguntas</h6>
+                        <div id="questionGrid" class="question-grid">
+                            <!-- Question numbers will be generated here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Results Interface -->
+                <div id="resultsInterface" class="results-interface" style="display: none;">
+                    <div class="results-header text-center mb-4">
+                        <div class="results-score mb-3">
+                            <div class="score-circle">
+                                <span id="finalScore">0</span>
+                                <small>puntos</small>
+                            </div>
+                        </div>
+                        <h4 class="text-white mb-2">¡Simulacro Completado!</h4>
+                        <p class="text-white" id="performanceMessage">Excelente rendimiento</p>
+                    </div>
+
+                    <!-- Detailed Results -->
+                    <div class="results-details">
+                        <div class="row text-center mb-4">
+                            <div class="col-3">
+                                <div class="result-stat">
+                                    <div class="stat-value" id="correctAnswers">0</div>
+                                    <div class="stat-label">Correctas</div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="result-stat">
+                                    <div class="stat-value" id="incorrectAnswers">0</div>
+                                    <div class="stat-label">Incorrectas</div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="result-stat">
+                                    <div class="stat-value" id="unansweredQuestions">0</div>
+                                    <div class="stat-label">Sin responder</div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="result-stat">
+                                    <div class="stat-value" id="timeSpent">0:00</div>
+                                    <div class="stat-label">Tiempo</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Performance by Topic -->
+                        <div class="performance-breakdown mb-4">
+                            <h5 class="text-white mb-3">Desempeño por Tema</h5>
+                            <div id="topicBreakdown" class="topic-breakdown">
+                                <!-- Topic performance will be shown here -->
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="text-center">
+                            <button id="retryExam" class="btn btn-primary-gradient me-2">
+                                <i class="fas fa-redo me-2"></i> Repetir Simulacro
+                            </button>
+                            <button id="backToSubjects" class="btn btn-outline-light-gradient">
+                                <i class="fas fa-arrow-left me-2"></i> Elegir Otra Materia
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Back to Subjects Button -->
+                <div class="text-center mt-4">
+                    <button id="backToSubjectsBtn" class="btn btn-outline-light-gradient" style="display: none;">
+                        <i class="fas fa-arrow-left me-2"></i> Volver a Materias
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exam Completion Modal -->
+        <div class="modal fade" id="examCompleteModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg-dark-gradient">
+                    <div class="modal-body text-center p-4">
+                        <div class="icon-circle-large mb-4 mx-auto bg-success">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <h4 class="text-dark mb-3">¿Finalizar Simulacro?</h4>
+                        <p class="text-muted mb-4">
+                            Has completado todas las preguntas. ¿Quieres ver tus resultados?
+                        </p>
+                        <div class="d-flex justify-content-center gap-3">
+                            <button type="button" class="btn btn-outline-light-gradient" data-bs-dismiss="modal">
+                                Continuar Revisando
+                            </button>
+                            <button type="button" id="finishExamBtn" class="btn btn-primary-gradient">
+                                Ver Resultados
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    <!-- Sección Progreso Personalizado -->
+    <section id="progressSection" class="progress-section py-5 bg-dark-gradient" style="display: none;">
+        <div class="container">
+            <div class="card progress-card p-4 mx-auto">
+                <div class="text-center mb-4 pt-4">
+                    <h3 class="text-white mb-3">Progreso <span class="text-gradient">Personalizado</span></h3>
+                    <p class="text-white">Sigue tu progreso académico y mejora continuamente</p>
+                </div>
+
+                <!-- Overview Stats -->
+                <div class="overview-stats mb-4">
+                    <div class="row text-center">
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="stat-value" id="totalStudyTime">0h</div>
+                                <div class="stat-label">Tiempo de Estudio</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-tasks"></i>
+                                </div>
+                                <div class="stat-value" id="tasksCompleted">0</div>
+                                <div class="stat-label">Tareas Completadas</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-calendar-check"></i>
+                                </div>
+                                <div class="stat-value" id="studyDays">0</div>
+                                <div class="stat-label">Días de Estudio</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-trophy"></i>
+                                </div>
+                                <div class="stat-value" id="achievements">0</div>
+                                <div class="stat-label">Logros</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Study Streak -->
+                <div class="study-streak mb-4">
+                    <div class="streak-card">
+                        <div class="streak-content">
+                            <div class="streak-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <div class="streak-info">
+                            <h5 class="text-dark mb-1">Racha de Estudio</h5>
+                                <div class="streak-count">
+                                    <span id="currentStreak">0</span> días consecutivos
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="bi bi-fire" style="color: coral; font-size: 2.5rem;"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Weekly Activity Chart -->
+                <div class="activity-chart mb-4">
+                <h5 class="text-dark mb-3">Actividad Semanal</h5>
+                    <div class="chart-container">
+                        <div class="chart-bars" id="weeklyChart">
+                            <div class="chart-bar" data-day="Lun">
+                                <div class="bar-fill" style="height: 0%"></div>
+                                <div class="bar-label">Lun</div>
+                            </div>
+                            <div class="chart-bar" data-day="Mar">
+                                <div class="bar-fill" style="height: 0%"></div>
+                                <div class="bar-label">Mar</div>
+                            </div>
+                            <div class="chart-bar" data-day="Mié">
+                                <div class="bar-fill" style="height: 0%"></div>
+                                <div class="bar-label">Mié</div>
+                            </div>
+                            <div class="chart-bar" data-day="Jue">
+                                <div class="bar-fill" style="height: 0%"></div>
+                                <div class="bar-label">Jue</div>
+                            </div>
+                            <div class="chart-bar" data-day="Vie">
+                                <div class="bar-fill" style="height: 0%"></div>
+                                <div class="bar-label">Vie</div>
+                            </div>
+                            <div class="chart-bar weekend" data-day="Sáb">
+                                <div class="bar-fill" style="height: 0%"></div>
+                                <div class="bar-label">Sáb</div>
+                            </div>
+                            <div class="chart-bar weekend" data-day="Dom">
+                                <div class="bar-fill" style="height: 0%"></div>
+                                <div class="bar-label">Dom</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Activity -->
+                <div class="recent-activity mb-4">
+                <h5 class="text-dark mb-3">Actividad Reciente</h5>
+                    <div class="activity-list" id="activityList">
+                        <div class="empty-activity">
+                        <i class="fas fa-history fa-2x text-muted mb-2"></i>
+                        <p class="text-muted">No hay actividad reciente</p>
+                        <small class="text-muted">¡Comienza a usar las herramientas para ver tu progreso!</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Goals and Achievements -->
+                <div class="goals-achievements">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                        <h5 class="text-white mb-3">Metas Diarias</h5>
+                            <div class="goals-list" id="dailyGoals">
+                                <div class="goal-item">
+                                    <div class="goal-info">
+                                        <span class="goal-text">Estudiar 2 horas</span>
+                                        <small class="goal-progress">0/2 horas</small>
+                                    </div>
+                                    <div class="goal-bar">
+                                        <div class="goal-fill" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                                <div class="goal-item">
+                                    <div class="goal-info">
+                                        <span class="goal-text">Completar 5 tareas</span>
+                                        <small class="goal-progress">0/5 tareas</small>
+                                    </div>
+                                    <div class="goal-bar">
+                                        <div class="goal-fill" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                                <div class="goal-item">
+                                    <div class="goal-info">
+                                        <span class="goal-text">Hacer 1 simulacro</span>
+                                        <small class="goal-progress">0/1 exámenes</small>
+                                    </div>
+                                    <div class="goal-bar">
+                                        <div class="goal-fill" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                        <h5 class="text-white mb-3">Logros Recientes</h5>
+                            <div class="achievements-list" id="recentAchievements">
+                                <div class="achievement-item locked">
+                                    <div class="achievement-icon">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div class="achievement-info">
+                                        <div class="achievement-title">Primeros Pasos</div>
+                                        <div class="achievement-desc">Completa tu primera sesión de estudio</div>
+                                    </div>
+                                </div>
+                                <div class="achievement-item locked">
+                                    <div class="achievement-icon">
+                                        <i class="fas fa-tasks"></i>
+                                    </div>
+                                    <div class="achievement-info">
+                                        <div class="achievement-title">Organizado</div>
+                                        <div class="achievement-desc">Completa 10 tareas</div>
+                                    </div>
+                                </div>
+                                <div class="achievement-item locked">
+                                    <div class="achievement-icon">
+                                        <i class="fas fa-brain"></i>
+                                    </div>
+                                    <div class="achievement-info">
+                                        <div class="achievement-title">Estudiante Dedicado</div>
+                                        <div class="achievement-desc">Estudia 7 días seguidos</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Performance Insights -->
+                <div class="performance-insights mt-4">
+                <h5 class="text-white mb-3">Insignias de Rendimiento</h5>
+                    <div class="insights-grid">
+
+                        <div class="insight-card">
+                            <div class="insight-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+
+                            <div class="insight-content">
+                            <h6 class="text-dark">Mejor Día</h6>
+                            <p class="text-muted mb-0" id="bestDay">Sin datos suficientes</p>
+                            </div>
+                        </div>
+
+                        <div class="insight-card">
+                            <div class="insight-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="insight-content">
+                            <h6 class="text-dark">Productividad</h6>
+                            <p class="text-muted mb-0" id="productivityLevel">Calculando...</p>
+                            </div>
+                        </div>
+
+                        <div class="insight-card">
+                            <div class="insight-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <div class="insight-content">
+                            <h6 class="text-dark">Consistencia</h6>
+                            <p class="text-muted mb-0" id="consistency">Sin datos suficientes</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección 4: Acceso Requerido (Modal/Popup - se mostraría condicionalmente) -->
+    <!-- Este modal podría ser disparado por JS cuando un usuario intente acceder a una función sin iniciar sesión -->
+    <div class="modal fade" id="accessRequiredModal" tabindex="-1" aria-labelledby="accessRequiredModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark-gradient p-4">
+                <div class="modal-body text-center pt-4">
+                    <h3 class="text-dark mb-3">Acceso Requerido</h3>
+                    <p class="text-muted">Por favor regístrate o inicia sesión para acceder a tus herramientas de estudio.</p>
+                </div>
+                <div class="modal-footer justify-content-center border-0 pt-0">
+                    <button type="button" class="btn btn-primary-gradient" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-outline-light-gradient" data-bs-toggle="modal" data-bs-target="#registerModal">Registrarse</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Sección 5: Únete a EstudiaPlus (Formulario de Registro/Modal) -->
+    <!-- Este modal podría ser disparado desde el botón "Únete Gratis" o "Registrarse" -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark-gradient p-4">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pt-0 pt-4">
+                    <h3 class="text-white mb-3">Únete a <span class="text-gradient">EstudiaPlus</span></h3>
+                    <p class="text-white mb-4">Crea tu cuenta y comienza a mejorar tu rendimiento académico con herramientas intuitivas</p>
+
+                    <form>
+                        <div class="mb-3 input-group-purple">
+                            <span class="input-group-text"><i class="bi bi-person"></i></span>
+                            <input type="text" class="form-control" placeholder="Tu nombre completo">
+                        </div>
+                        <div class="mb-3 input-group-purple">
+                            <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                            <input type="email" class="form-control" placeholder="@email.com">
+                        </div>
+                        <div class="mb-3 input-group-purple">
+                            <span class="input-group-text"><i class="bi bi-mortarboard"></i></span>
+                            <select class="form-select">
+                                <option selected disabled>Selecciona tu grado</option>
+                                <option value="1">Grado 9</option>
+                                <option value="2">Grado 10</option>
+                                <option value="3">Grado 11</option>
+                                <option value="4">Universidad</option>
+                            </select>
+                        </div>
+                        <div class="mb-3 input-group-purple">
+                            <span class="input-group-text"><i class="bi bi-buildings"></i></span>
+                            <input type="text" class="form-control" placeholder="Nombre de tu colegio o universidad (Opcional)">
+                        </div>
+                        <div class="mb-3 input-group-purple">
+                            <span class="input-group-text"><i class="bi bi-ban"></i></span>
+                            <input type="password" class="form-control" placeholder="Crea una contraseña segura">
+                        </div>
+                        <div class="mb-4 input-group-purple">
+                            <span class="input-group-text"><i class="bi bi-ban"></i></span>
+                            <input type="password" class="form-control" placeholder="Repite tu contraseña">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary-gradient btn-lg w-100 mb-3">Crear Cuenta Gratis</button>
+
+                        <p class="text-white mb-3">¿Ya tienes cuenta? <a href="#" class="text-primary-gradient-link" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-dismiss="modal">Inicia sesión</a></p>
+
+                        <div class="d-flex justify-content-center text-white small">
+                            <span class="me-3"><i class="fas fa-check-circle me-1 text-success"></i> Gratis para siempre</span>
+                            <span><i class="fas fa-check-circle me-1 text-success"></i> Sin publicidad</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modal de Inicio de Sesión (Podrías añadirlo si quieres una experiencia completa) -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark-gradient p-4">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center pt-0 pt-4">
+                    <h3 class="text-white mb-3">Inicia Sesión</h3>
+                    <p class="text-white mb-4">Accede a tu cuenta de EstudiaPlus</p>
+
+                    <form>
+                        <div class="mb-3 input-group-purple">
+                            <span class="input-group-text"><i class="bi bi-envelope"></i>s</span>
+                            <input type="email" class="form-control" placeholder="tu@email.com">
+                        </div>
+                        <div class="mb-4 input-group-purple">
+                            <span class="input-group-text"><i class="bi bi-ban"></i></span>
+                            <input type="password" class="form-control" placeholder="Tu contraseña">
+                        </div>
+                        <button type="submit" class="btn btn-primary-gradient btn-lg w-100 mb-3">Iniciar Sesión</button>
+                        <p class="text-white">¿No tienes cuenta? <a href="#" class="text-primary-gradient-link" data-bs-toggle="modal" data-bs-target="#registerModal" data-bs-dismiss="modal">Regístrate</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Footer -->
+    <footer class="footer pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-2 mx-auto">
+                    <h5 class="mb-3">EDUCATE MÁS</h5>
+                    <p>Tu compañero de estudios perfecto para organizar tu vida académica, prepararte para el ICFES y alcanzar tus metas.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6 mx-auto">
+                    <h6 class="fw-bold">CONTACTO</h6>
+                    <ul class="list-unstyled footer-contact">
+                        <li><i class="bi bi-envelope-fill me-2"></i>Educateplus17@gmail.com </li>
+                        <li><i class="bi bi-telephone-fill"></i> +57 304 6689225</li>
+                        <li><i class="bi bi-geo-alt-fill me-1"></i> Cota, Colombia</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mx-auto">
+                    <h6 class="fw-bold">Síguenos polfiiii</h6>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/eplusapp?igsh=dm9zdWV4MXF6bmtz" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-icon" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-hr">
+            <div class="text-center">
+                <p>&copy; 2025 E+ Educate Más. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- Bootstrap JS y Custom JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- Timer Component JS -->
+    <script src="components/timer/timer.js"></script>
+    <!-- Calendar Component JS -->
+    <script src="components/calendar/calendar.js"></script>
+    <!-- Tasks Component JS -->
+    <script src="components/tasks/tasks.js"></script>
+    <!-- Schedule Component JS -->
+    <script src="components/schedule/schedule.js"></script>
+    <!-- ICFES Component JS -->
+    <script src="components/icfes/icfes.js"></script>
+    <!-- Progress Component JS -->
+    <script src="components/progress/progress.js"></script>
+</body>
+</html>
